@@ -1,3 +1,9 @@
+# revision 23499
+# category Package
+# catalog-ctan /support/pdfcrop/pdfcrop.pl
+# catalog-date 2011-08-10 10:59:12 +0200
+# catalog-license lppl
+# catalog-version 1.32
 Name:		texlive-pdfcrop
 Version:	1.32
 Release:	1
@@ -39,6 +45,7 @@ border, or trim them of a fixed border.
 %{_bindir}/rpdfcrop
 %{_texmfdistdir}/scripts/pdfcrop/pdfcrop.pl
 %doc %{_texmfdistdir}/doc/support/pdfcrop/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ pushd %{buildroot}%{_bindir}
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
