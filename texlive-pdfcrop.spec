@@ -1,12 +1,12 @@
-# revision 25282
+# revision 26043
 # category Package
 # catalog-ctan /support/pdfcrop/pdfcrop.pl
-# catalog-date 2011-08-10 10:59:12 +0200
+# catalog-date 2012-04-18 16:26:37 +0200
 # catalog-license lppl
-# catalog-version 1.32
+# catalog-version 1.34
 Name:		texlive-pdfcrop
-Version:	1.32
-Release:	3
+Version:	1.34
+Release:	1
 Summary:	Crop PDF graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pdfcrop/pdfcrop.pl
