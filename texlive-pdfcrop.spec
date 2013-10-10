@@ -1,12 +1,12 @@
-# revision 26313
+# revision 29348
 # category Package
 # catalog-ctan /support/pdfcrop/pdfcrop.pl
-# catalog-date 2012-04-18 16:26:37 +0200
+# catalog-date 2012-10-25 10:45:27 +0200
 # catalog-license lppl
-# catalog-version 1.34
+# catalog-version 1.37
 Name:		texlive-pdfcrop
-Version:	1.34
-Release:	2
+Version:	1.37
+Release:	1
 Summary:	Crop PDF graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pdfcrop/pdfcrop.pl
@@ -52,29 +52,3 @@ pushd %{buildroot}%{_bindir}
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.34-2
-+ Revision: 812728
-- Update to latest release.
-
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.34-1
-+ Revision: 805016
-- Update to latest release.
-
-* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.32-3
-+ Revision: 772128
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.32-2
-+ Revision: 754752
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.32-1
-+ Revision: 719216
-- texlive-pdfcrop
-- texlive-pdfcrop
-- texlive-pdfcrop
-- texlive-pdfcrop
-
