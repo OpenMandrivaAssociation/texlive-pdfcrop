@@ -6,7 +6,7 @@
 # catalog-version 1.37
 Name:		texlive-pdfcrop
 Version:	1.37
-Release:	4
+Release:	5
 Summary:	Crop PDF graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pdfcrop/pdfcrop.pl
