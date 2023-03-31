@@ -1,6 +1,6 @@
 Name:		texlive-pdfcrop
 Version:	55435
-Release:	1
+Release:	2
 Summary:	Crop PDF graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pdfcrop/pdfcrop.pl
