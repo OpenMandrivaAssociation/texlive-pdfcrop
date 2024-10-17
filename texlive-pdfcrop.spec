@@ -3,7 +3,7 @@ Version:	66862
 Release:	1
 Summary:	Crop PDF graphics
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/pdfcrop/pdfcrop.pl
+URL:		https://www.ctan.org/tex-archive/support/pdfcrop/pdfcrop.pl
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdfcrop.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdfcrop.doc.r%{version}.tar.xz
